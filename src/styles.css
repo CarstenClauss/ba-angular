@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+  box-sizing: border-box;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+  font-size: 21px;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-color: #444242;
+  color: white
+}
+
+p {
+  line-height: 2em;
+  margin: 0 0.7em;
+}
+
+h1 {
+  margin: 0.1em 0;
+}

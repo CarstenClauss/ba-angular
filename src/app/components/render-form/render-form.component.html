@@ -1,0 +1,21 @@
+<div class="form-wrapper">
+  <div class="title">Enter a number.</div>
+  <div class="form-buttons">
+    <input
+      #numberInput
+      class="styled-input"
+      type="number"
+      placeholder="number"
+    />
+    <button class="styled-button" type="button" (click)="onAddClick(numberInput.value)">
+      Add Components
+    </button>
+    <button
+      class="styled-button"
+      type="button"
+      (click)="handleRemoveComponents()"
+    >
+      Remove Components
+    </button>
+  </div>
+</div>

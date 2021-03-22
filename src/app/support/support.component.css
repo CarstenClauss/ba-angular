@@ -1,0 +1,73 @@
+#trends {
+  height: 500px;
+  padding: 1em;
+  width: calc(100% - 2em);
+}
+
+.support-wrapper {
+  height: 100%;
+}
+
+.container-view {
+  padding: 0 1em;
+}
+
+.support-styled-title {
+  margin: 0 0 0.5em 1em;
+}
+
+.support-component-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0 0 2em;
+}
+
+.component-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.support-chart-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.support-chart-container {
+  padding: 1em;
+  width: calc(100% - 2em);
+}
+
+.github-wrapper {
+  height: 50%;
+  text-align: center;
+  align-items: center;
+}
+
+.npm-wrapper {
+  height: 50%;
+  text-align: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0 0.3em;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bold;
+  color: #DD0031;
+}
+
+a{
+  padding: 0 0.5em;
+  cursor: pointer;
+  text-decoration: none;
+  color: #DD0031;
+  font-weight: lighter;
+  font-size: 0.7em;
+}
+
+a:hover {
+  color: white;
+}

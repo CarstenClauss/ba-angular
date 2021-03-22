@@ -1,0 +1,13 @@
+<div class="performance-wrapper">
+  <app-render-form (numberOfComponents)="AddComponents($event)"></app-render-form>
+  <div class="performance-component-container">
+    <div
+    *ngFor="let item of numbers; index as i;"
+    :key="item.id"
+    class="component-cube"
+    [style.background-color]="item"
+  >
+    #{{ i }}
+  </div>
+  </div>
+</div>

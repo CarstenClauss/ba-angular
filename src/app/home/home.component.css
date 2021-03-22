@@ -1,0 +1,28 @@
+.center {
+  height: 100%;
+  padding: 0 1em;
+  margin: 0.1em 0;
+}
+
+.title {
+  margin: 0 0.3em;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bold;
+  color: #DD0031;
+}
+
+.image-div {
+  display: flex;
+  justify-content: center;
+  margin: 2.5em 1em 5em;
+}
+
+.img {
+  width: 300px;
+  height: auto;
+}
+
+.container-view {
+  padding: 0 1em;
+}
