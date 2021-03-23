@@ -1,6 +1,11 @@
 .github-wrapper {
   background-color: white;
-  max-height: 300px;
   padding: 1em;
   color: black;
+}
+
+.small {
+  max-height: 350px;
+  max-width: 500px;
+  margin: 50px auto;
 }
